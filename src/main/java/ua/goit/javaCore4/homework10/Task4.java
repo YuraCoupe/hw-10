@@ -6,9 +6,9 @@ import java.util.stream.Stream;
 
 public class Task4 {
     public static void main(String[] args) {
-        long seed = 0l;
-        long a = 25214903917l;
-        long c = 11l;
+        long seed = 0L;
+        long a = 25214903917L;
+        long c = 11L;
         double m = Math.pow(2, 48);
         Stream<Long> testStream = getRandomNumbnersStrem(seed, a, c, m);
         testStream
